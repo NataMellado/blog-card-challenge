@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url(../fonts/Figtree-VariableFont_wght.ttf) format('truetype');
+    font-style: normal;
+}
+
+:root {
+    /* Primary */
+    --color-primary: hsl(47, 88%, 63%);
+    
+    /* Neutral */
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey: hsl(0, 0%, 50%);
+    --color-black: hsl(0, 0%, 7%);
+    
+    /* Font */
+    --font-figtree: 'Figtree', sans-serif;
+
+    /* Border Radius */
+    --border-radius-card: 20px;
+    --border-radius-img: 10px;
+    --border-radius-button: 5px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:grid;
+    align-items: center;
+    background-color: var(--color-primary);
+    height: 100vh;
+    margin: 0;
+}
+
+
+.card-section {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.card-container {
+    display: grid;
+    justify-self: center;
+    max-width: 384px;
+    border: 1px solid var(--color-black); 
+    border-radius: var(--border-radius-card);
+    background-color: var(--color-white);
+    padding: 1.4rem;
+    box-shadow: 0.5rem 0.5rem;
+    font-family: var(--font-figtree);
+}
+
+.card-image {
+    width: 100%;
+    border-radius: var(--border-radius-img);
+    margin-bottom: 1.5rem;
+}
+
+.learning-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius-button);
+    background-color: var(--color-primary);
+    width: 5.125rem;
+    height: 1.75rem;
+    margin-bottom: 0.8rem;
+}
+
+.learning-text {
+    font-size: 0.875rem;
+    font-weight: 800;
+}
+
+.published-time {
+    font-size: 0.881rem;
+    margin-bottom: 0.938rem;
+
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.card-description {
+    line-height: 1.5;
+    color: var(--color-grey);
+    margin-bottom: 1.5rem;
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+
+    .avatar {
+        width: 2rem;
+    }
+
+    .name {
+        font-size: 0.875rem;
+        font-weight: 800;
+        margin-left: 0.75rem;
+    }
+}
+
+
+
+
+
+  

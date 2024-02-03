@@ -27,7 +27,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [https://github.com/NataMellado/blog-card-challenge](https://github.com/NataMellado/blog-card-challenge)
-- Live Site URL: [https://natamellado.github.io/recipe-page-challenge/](https://natamellado.github.io/recipe-page-challenge/)
+- Live Site URL: [https://natamellado.github.io/blog-card-challenge/](https://natamellado.github.io/blog-card-challenge/)
 
 
 ## My process
@@ -47,7 +47,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
     color: var(--color-primary);
 }
 ```
-#### 2. The tabindex attribute makes the element focusable.
+#### 2. The tabindex attribute makes the element focusable
 ```html
 <h2 tabindex="0" class="card-title">HTML & CSS foundations</h2>
 ```

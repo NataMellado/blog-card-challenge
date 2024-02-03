@@ -89,7 +89,7 @@ body{
     font-size: 1.5rem;
     font-weight: 800;
     margin-bottom: 1rem;
-    transition: color 0.3s; /* Transición suave para el cambio de color */
+    transition: color 0.3s;
     cursor: pointer;
 
 }

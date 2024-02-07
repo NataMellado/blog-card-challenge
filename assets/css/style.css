@@ -29,20 +29,26 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+
+}
+
 body{
     display:grid;
     align-items: center;
     background-color: var(--color-primary);
-    height: 100vh;
     margin: 0;
 }
+
 
 
 .card-section {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .card-container {
